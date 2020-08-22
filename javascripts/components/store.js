@@ -1,5 +1,5 @@
 
-import { addToCart } from './cart.js';
+import { addToCart } from './../components/makeAndAdd.js';
 
 const makeStore = (array, titles = false) => {
   $("#store").html("");
